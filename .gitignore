@@ -1,0 +1,18 @@
+# Ignore everything
+*
+*.*
+
+# Exclude
+!*.py
+!*.sh
+!README.md
+
+# Don't ignore .gitignore itself
+!.gitignore
+
+# Still ignore pycache even if it has .py files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
